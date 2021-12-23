@@ -3,8 +3,8 @@
 ### HOW TO IMPORT
  
 ### STEPS:- 
-1. Create directory packages/<vendorName>/<packageName>/src
-2. Create ***composer.json*** in <vendorName>/<packageName>
+1. Create directory packages/vendorName/packageName/src
+2. Create ***composer.json*** in vendorName/packageName/
 >     {
 >     	    "name": "souravmsh/password-policy",
 >     	    "description": "Easy password policy manage and password expriry solution",
@@ -52,6 +52,10 @@
 > - php artisan vendor:publish
 > - select your desire package 
 
+
+##### DOC REFERENCE 
+######  https://www.amitmerchant.com/how-to-pull-local-package-laravel-project/
+
 ---Enjoy---
 
 
@@ -79,5 +83,3 @@ Combine password rules with other existing rules
 >     ]));
 
 
-##### REFERENCE 
-######  https://www.amitmerchant.com/how-to-pull-local-package-laravel-project/
