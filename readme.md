@@ -34,6 +34,9 @@
 >     	    }
 >     	}
 
+# Browse 
+Add route ```/password-policy``` to you application  
+
 3. Create PackageServiceProvider.php - Write config,controller,route,views and other logic
 4. Create config, http, views, route.php and other files
 5. Add package repositories to root/composer.json file
